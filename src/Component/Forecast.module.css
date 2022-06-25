@@ -1,0 +1,77 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+}
+.sub_container {
+  width: 70%;
+  border: 1px solid #9f9f9f;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.heading_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.city_info {
+  margin: 0px 0px 20px 0px;
+}
+.tab_option {
+  margin-right: 10px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #9f9f9f;
+  border-radius: 10px;
+}
+.tab_option:last-child {
+  margin: 0px;
+}
+.active {
+  text-decoration: underline;
+}
+.content_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: scroll;
+  width: 100%;
+  padding: 10px 0px;
+}
+.content_container_item {
+  padding: 5px;
+  text-align: center;
+  margin-right: 10px;
+}
+.content_container_item:last-child {
+  margin: 0px;
+}
+.time {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.active_hour .time{
+  font-size: 18px;
+  font-weight: 600;
+}
+.photo {
+  width: 75px;
+  margin-bottom: 5px;
+}
+
+.active_hour .degree{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.degree {
+  font-size: 20px;
+  font-weight: 400;
+}
